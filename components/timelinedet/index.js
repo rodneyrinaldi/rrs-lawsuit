@@ -9,7 +9,7 @@ function TimeLineDet() {
       <div className={styles.timeLine}>
         <Chart
           width={"100%"}
-          height={"600px"}
+          height={"100%"}
           chartType="Timeline"
           loader={<div>Loading Chart</div>}
           data={[
@@ -20,65 +20,52 @@ function TimeLineDet() {
               { type: "date", id: "End" },
             ],
             [
-              "Rodney Rinaldi",
-              "Inicial",
+              "Autos",
+              "1234567-89.2021.8.26.1111",
               new Date(2021, 1, 1),
-              new Date(2021, 1, 10),
+              new Date(2021, 6, 5),
             ],
+            ["Inicial", "5d", new Date(2021, 1, 1), new Date(2021, 1, 6)],
             [
-              "Rodney Rinaldi",
               "Contestação",
+              "15d",
               new Date(2021, 1, 11),
               new Date(2021, 1, 26),
             ],
             [
-              "Rodney Rinaldi",
               "Contrarrazões",
+              "15d",
               new Date(2021, 1, 27),
               new Date(2021, 2, 10),
             ],
+            ["Sentença", "3d", new Date(2021, 2, 15), new Date(2021, 2, 18)],
+            ["Apelação", "15d", new Date(2021, 2, 19), new Date(2021, 3, 3)],
             [
-              "Rodney Rinaldi",
-              "Sentença",
-              new Date(2021, 2, 15),
-              new Date(2021, 2, 18),
-            ],
-            [
-              "Rodney Rinaldi",
-              "Apelação",
-              new Date(2021, 2, 19),
-              new Date(2021, 3, 3),
-            ],
-            [
-              "Rodney Rinaldi",
               "Contrarrazões",
+              "15d",
               new Date(2021, 3, 4),
               new Date(2021, 3, 19),
             ],
+            ["Acórdão", "3d", new Date(2021, 3, 24), new Date(2021, 3, 26)],
             [
-              "Rodney Rinaldi",
-              "Acórdão",
+              "Embargos Declaração",
+              "5d",
               new Date(2021, 3, 24),
-              new Date(2021, 3, 26),
+              new Date(2021, 3, 29),
             ],
             [
-              "Rodney Rinaldi",
               "Recurso Especial",
+              "15d",
               new Date(2021, 4, 1),
               new Date(2021, 4, 16),
             ],
             [
-              "Rodney Rinaldi",
               "Contrarrazões",
+              "15d",
               new Date(2021, 4, 17),
               new Date(2021, 5, 30),
             ],
-            [
-              "Rodney Rinaldi",
-              "Acórdão",
-              new Date(2021, 6, 2),
-              new Date(2021, 6, 4),
-            ],
+            ["Acórdão", "3d", new Date(2021, 6, 2), new Date(2021, 6, 4)],
           ]}
           options={{
             timeline: {
