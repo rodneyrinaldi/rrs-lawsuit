@@ -1,0 +1,13 @@
+.container {
+  width: 98vw;
+  height: 40vh;
+  padding: 20px;
+  margin: 0;
+}
+
+.timeLine {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}

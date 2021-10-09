@@ -1,0 +1,88 @@
+[
+  {
+    "MSGPROC": "",
+    "DTPROC": "2021/10/01 10:10:10",
+    "ATUALIZADO": "2021/10/01 10:10:10",
+    "PROCESSO": "1234567-89.2021.8.26.1234",
+    "STATUS": "Extinto",
+    "TRAMITACAO": "Prioritário",
+    "CLASSE": "Procedimento Comum Cível",
+    "ASSUNTO": "Prestação de Serviços",
+    "FORO": "Foro Central Cível",
+    "VARA": "2ª Vara Cível",
+    "JUIZ": "FABIANA MARINI",
+    "PRINCIPAL": "1234567-89.2021.8.26.1234",
+    "RECEBIDO": "2021/10/01 10:10:10",
+    "CONTROLE": "2016/002525",
+    "AREA": "Civel",
+    "PARTES": [
+      {
+        "TIPO": "Autor",
+        "NOME": "Nome Completo",
+        "ADV": [{ "NOME": "Nome Advogado" }, { "NOME": "Nome Advogado" }]
+      },
+      {
+        "TIPO": "Autor",
+        "NOME": "Nome Completo",
+        "ADV": [{ "NOME": "Nome Advogado" }]
+      },
+      {
+        "TIPO": "Réu",
+        "NOME": "Nome Completo",
+        "ADV": [{ "NOME": "Nome Advogado" }]
+      },
+      {
+        "TIPO": "Períto",
+        "NOME": "Nome Completo"
+      }
+    ],
+    "MOVIMENTACOES": [
+      {
+        "DATA": "30/09/2021",
+        "DESCRICAO": "Certidão de Publicação Expedida Relação: 0566/2021 Data da Disponibilização: 30/09/2021 Data da Publicação: 01/10/2021 Número do Diário: 3372 Página: 24/31"
+      },
+      {
+        "DATA": "29/09/2021",
+        "DESCRICAO": "Remetido ao DJE Relação: 0566/2021 Teor do ato: Vistos. Ciente quanto ao julgamento do agravo. Retome-se o leilão. Int. Advogados(s): Antonio Spinelli (OAB 175223/SP), Rodney Rinaldi Tonelli (OAB 417198/SP)"
+      }
+    ],
+    "PETICOES": [
+      {
+        "DATA": "13/11/2019",
+        "TIPO": "Petição Intermediária"
+      },
+      {
+        "DATA": "26/08/2020",
+        "TIPO": "Pedido de Desarquivamento"
+      }
+    ],
+    "INCIDENTES": [
+      {
+        "DATA": "13/11/2019",
+        "PROCESSO": "1234567-89.2021.8.26.5555",
+        "TIPO": "Cumprimento de sentença"
+      },
+      {
+        "DATA": "13/03/2020",
+        "PROCESSO": "1234567-89.2021.8.26.9999",
+        "TIPO": "Incidente de Desconsideração de Personalidade Jurídica"
+      }
+    ],
+    "APENSOS": [
+      {
+        "DATA": "",
+        "TIPO": ""
+      }
+    ],
+    "AUDIENCIAS": [
+      {
+        "DATA": "2021/10/01 10:10:10",
+        "TIPO": "Conciliação"
+      },
+      {
+        "DATA": "2021/11/01 10:10:10",
+        "TIPO": "Instrução"
+      }
+    ]
+  }
+]
